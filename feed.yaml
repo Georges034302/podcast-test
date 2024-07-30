@@ -38,3 +38,9 @@ item:
     file: /audio/TFIT05.mp3
     duration: 00:00:22
     length: 352,587
+  - title: EP06-Test
+    description: Testing GitHub Actions Workflow
+    published: Thu, 9 Feb 2023 18:00:00 GMT
+    file: /audio/TFIT05.mp3
+    duration: 00:00:22
+    length: 352,587
