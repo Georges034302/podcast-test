@@ -1,6 +1,6 @@
 # The Future in Tech
 
-<img src="[https://raybo.org/tfit-feed/images/artwork.jpg](https://img.freepik.com/premium-vector/movie-cinema-premiere-background_41737-251.jpg)" width="250">
+<img src="https://img.freepik.com/premium-vector/movie-cinema-premiere-background_41737-251.jpg" width="250">
 
 The [Future in Tech](https://go.raybo.org/tfit) is a weekly series powered by [LinkedIn Learning](https://www.linkedin.com/learning/) hosted by Senior Staff Instructor [Ray Villalobos](https://www.linkedin.com/in/planetoftheweb).
 
@@ -12,8 +12,7 @@ You have a chance to hear from people who are not just talking about, but buildi
 
 ---
 ## More Info
-- [The Future in Tech Page](https://go.raybo.org/tfit)
-- [Episode Guide](https://go.raybo.org/tfit-episodes)
-- [YouTube Playlist](https://go.raybo.org/tfit-youtube)
-- [Podcast Feed - Audio Only](https://go.raybo.org/tfit-feed-audio)
-- [Episode Newsletter](https://go.raybo.org/tfit-newsletter)
+- [IMDB](https://www.imdb.com/)
+- [Event Cinema](https://www.eventcinemas.com.au/)
+- [Hoyts Cinema](https://www.hoyts.com.au/)
+- [Reading Cinema](https://readingcinemas.com.au/movies/now-showing)
