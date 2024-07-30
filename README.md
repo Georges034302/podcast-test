@@ -1,6 +1,6 @@
 # Movie Trailer Information Platform
 
-<img src="https://img.freepik.com/premium-vector/movie-cinema-premiere-background_41737-251.jpg" width="250">
+[<img src="https://img.freepik.com/premium-vector/movie-cinema-premiere-background_41737-251.jpg" width="250">](https://georges034302.github.io/trailer-viewer/)
 
 The [Trailer Viewer](https://georges034302.github.io/trailer-viewer/) is a information platform about movies generated from yaml data file.
 
