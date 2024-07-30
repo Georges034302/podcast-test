@@ -38,9 +38,9 @@ item:
     file: /audio/TFIT05.mp3
     duration: 00:00:22
     length: 352,587
-  - title: EP06-Testing Feed Generator
+  - title: Testing Feed Generator
     description: Testing GitHub Actions Workflow with Dockerfile
     published: Thu, 9 Feb 2023 18:00:00 GMT
-    file: /audio/TFIT05.mp3
+    file: /someaudio
     duration: 00:00:22
     length: 352,587
