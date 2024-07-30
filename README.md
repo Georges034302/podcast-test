@@ -1,19 +1,18 @@
-# The Future in Tech
+# Movie Trailer Information Platform
 
-<img src="https://raybo.org/tfit-feed/images/artwork.jpg" width="250">
+[<img src="https://img.freepik.com/premium-vector/movie-cinema-premiere-background_41737-251.jpg" width="250">](https://georges034302.github.io/trailer-viewer/)
 
-The [Future in Tech](https://go.raybo.org/tfit) is a weekly series powered by [LinkedIn Learning](https://www.linkedin.com/learning/) hosted by Senior Staff Instructor [Ray Villalobos](https://www.linkedin.com/in/planetoftheweb).
+The [Trailer Viewer](https://georges034302.github.io/trailer-viewer/) is a information platform about movies generated from yaml data file.
 
-You can [watch it on LinkedIn](https://go.raybo.org/tfit-episodes) every Thursday at 2pm ET, 11am PT. The goal of this series is to spark conversations, provide practical tips and resources to help developers work, learn, and tackle challenges related to working in the technology industry.
+You can find out more information about movies and cinema times/location in the Info section below.
 
-We're talking about Generative AI tools like ChatGPT, Dall-E*2, Hugging Face by talking to some of the leaders delivering the tools, strategies and technologies that make working in technology exciting. We'll discuss how they broke into technology, business strategies, ethical concerns and technical skills.
+The purpose of this project is to automatically generate XML data from raw YAML using Python script. Then to generate trailer-post using Docker generator.
 
-You have a chance to hear from people who are not just talking about, but building the next generation tools like Open AI and leaders who've worked for and with Fortune 500 companies like Microsoft, Google, LinkedIn,  IBM,  Open AI and more.
+GitHub Actions detects commits and deploy the updated code.
 
 ---
 ## More Info
-- [The Future in Tech Page](https://go.raybo.org/tfit)
-- [Episode Guide](https://go.raybo.org/tfit-episodes)
-- [YouTube Playlist](https://go.raybo.org/tfit-youtube)
-- [Podcast Feed - Audio Only](https://go.raybo.org/tfit-feed-audio)
-- [Episode Newsletter](https://go.raybo.org/tfit-newsletter)
+- [IMDB](https://www.imdb.com/)
+- [Event Cinema](https://www.eventcinemas.com.au/)
+- [Hoyts Cinema](https://www.hoyts.com.au/)
+- [Reading Cinema](https://readingcinemas.com.au/movies/now-showing)
