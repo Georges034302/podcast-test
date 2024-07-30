@@ -1,0 +1,33 @@
+title: Trailer Viewer
+author: Georges034302
+description: Movies Information Platform.
+image: /images/movies-info.png
+language: en-us
+category: Technology
+format: video/mp4
+link: https://georges034302.github.io/podcast-test
+item:
+  - title: Alien
+    description: Space colonizers come face to face with the most terrifying life-form in the universe while scavenging the deep ends of a derelict space station
+    Release date: 15 August 2024
+    file: /trailers/alien.mp4
+    duration: 00:01:50
+    size: 4.98 MB
+  - title: Live
+    description:  An online 'livecaster' with a dangerous brand has a crisis of conscience over her volatile career choice in a future world where jobs are limited and conflict is currency.
+    Release date: 22 August 2019
+    file: /trailers/live.mp4
+    duration: 00:00:31
+    size: 1.39 MB
+  - title: Mooned
+    description:  Villainous Vector must figure out how to get off the moon and return to Earth.
+    Release date: 07 December 2023
+    file: /trailers/mooned.mp4
+    duration: 00:00:30
+    size: 1.88 MB
+  - title: Sleepwalk
+    description:   Ayodele Odubela, a Data Scientist, Machine Learning professional and AI Entrepreneur, discusses the ethical issues surrounding the rapid adoption of AI systems, including transparency, minimizing bias, ensuring fairness, and potential ramifications around privacy, security, and governance.
+    Release date: 28 April 2018
+    file: /trailers/sleepwalk.mp4
+    duration: 00:00:49
+    size: 1.81
