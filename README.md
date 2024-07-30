@@ -1,4 +1,4 @@
-# The Future in Tech
+# Movie Trailer Information Platform
 
 <img src="https://img.freepik.com/premium-vector/movie-cinema-premiere-background_41737-251.jpg" width="250">
 
