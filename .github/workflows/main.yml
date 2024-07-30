@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-      - name: run Feed GEnerator
+      - name: Run Feed Generator
         uses: Georges034302/podcast-generator@main        
