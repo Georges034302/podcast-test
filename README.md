@@ -6,9 +6,9 @@ The [Trailer Viewer](https://georges034302.github.io/trailer-viewer/) is a infor
 
 You can find out more information about movies and cinema times/location in the Info section below.
 
-The purpose of this project is to automatically generate XML data from raw YAML using Python script. Then to generate trailer-post using Docker generator.
+The purpose of this project is to automatically generate XML data from raw YAML using Python script. 
 
-GitHub Actions detects commits and deploy the updated code.
+The second part of this project is to use Docker (ubuntu) image to run commands to trigger GitHub Actions and automatically detect changes in the YAML data then transform the YAML to XML.
 
 ---
 ## More Info
