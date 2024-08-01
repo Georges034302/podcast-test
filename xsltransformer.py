@@ -1,4 +1,5 @@
 import lxml.etree as ET
+import re 
 
 # Load the XML file
 xml_file = 'trailer.xml'
@@ -28,9 +29,30 @@ html_str = html_str.replace('<a href="{view/trailers/link}">Visit Trailer Viewer
 with open(html_output_file, 'w') as f:
     f.write(html_str)
 
-# Append the full URL to the README.md file
-with open(readme_file, 'a') as f:
-    f.write(f"\nYou can view the trailers [here]({full_url}).\n")
+# Function to update README.md with the latest URL
+def update_readme(readme_file, new_url):
+    # Read the existing README.md
+    with open(readme_file, 'r') as f:
+        content = f.read()
+
+    # Define the marker and URL pattern
+    marker = "[Latest Trailers URL]"
+    url_pattern = f"You can view the trailers [here]({new_url})."
+
+    # Remove any existing URL entries and marker
+    content = re.sub(rf'{re.escape(marker)}\s*[\s\S]*?(?=\n\S|$)', '', content).strip()
+
+    # Append the new URL and marker, ensuring no extra blank lines
+    if content.endswith(marker):
+        content = re.sub(rf'{re.escape(marker)}\s*$', '', content)  # Remove trailing marker
+    content += f"\n{marker}\n{url_pattern}\n"
+
+    # Write the updated content back to README.md
+    with open(readme_file, 'w') as f:
+        f.write(content)
+
+# Update README.md with the new URL
+update_readme(readme_file, full_url)
 
 print(f'HTML file generated: {html_output_file}')
 print(f'Full URL appended to README.md: {full_url}')
