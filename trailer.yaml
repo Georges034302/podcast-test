@@ -31,3 +31,9 @@ item:
     file: /trailers/sleepwalk.mp4
     duration: 00:00:49
     size: 1,810
+  - title: Avengers Doomsday
+    description:   The next installment in the "Avengers" franchise..
+    released: 01 05 2026
+    file: /trailers/avengers-doomsday.mp4
+    duration: 00:01:31
+    size: 5,310
