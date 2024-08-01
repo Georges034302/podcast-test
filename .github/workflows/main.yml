@@ -1,5 +1,3 @@
-name: Generate Trailer Views
-on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -7,4 +5,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Run Trailer Viewer Generator
-        uses: Georges034302/trailer-viewer-generator@main        
+        uses: Georges034302/trailer-viewer-generator@main
+        with:
+          email: ${{ secrets.GITHUB_ACTOR }}@localhost
+          name: ${{ secrets.GITHUB_ACTOR }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
