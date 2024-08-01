@@ -57,7 +57,7 @@
                         width: 45%; 
                     }
                     .title-column {
-                        width: 15%;
+                        width: 20%;
                     }
                     .released-column {
                         width: 15%;
