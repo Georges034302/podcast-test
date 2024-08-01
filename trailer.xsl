@@ -31,7 +31,7 @@
                         margin-bottom: 20px;
                     }
                     .top-section img {
-                        max-width: 400px;
+                        max-width: 500px;
                         height: auto;
                         display: block;
                         margin: 0 auto;
@@ -54,10 +54,10 @@
                         color: #333;
                     }
                     .description-column {
-                        width: 40%; /* Adjusted to 40% to make it narrower */
+                        width: 45%; 
                     }
                     .title-column {
-                        width: 20%;
+                        width: 15%;
                     }
                     .released-column {
                         width: 15%;
@@ -66,7 +66,7 @@
                         width: 15%;
                     }
                     .video-column {
-                        width: 10%;
+                        width: 20%;
                     }
                     td a {
                         color: #0073e6;
