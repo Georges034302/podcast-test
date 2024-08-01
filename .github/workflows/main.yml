@@ -1,3 +1,5 @@
+name: Generate Trailer Views
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,4 +12,4 @@ jobs:
           email: ${{ secrets.GITHUB_ACTOR }}@localhost
           name: ${{ secrets.GITHUB_ACTOR }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      
