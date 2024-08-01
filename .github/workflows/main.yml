@@ -1,4 +1,4 @@
-name: Generate Podcast Feeds
+name: Generate Trailer Views
 on: [push]
 jobs:
   build:
@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-      - name: Run Feed Generator
-        uses: Georges034302/podcast-generator@main        
+      - name: Run Trailer Viewer Generator
+        uses: Georges034302/trailer-viewer-generator@main        
