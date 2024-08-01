@@ -27,6 +27,15 @@
                         box-shadow: 0 0 10px rgba(0,0,0,0.1);
                         border-radius: 5px;
                     }
+                    .top-section {
+                        margin-bottom: 20px;
+                    }
+                    .top-section img {
+                        max-width: 500px;
+                        height: auto;
+                        display: block;
+                        margin: 0 auto;
+                    }
                     table {
                         width: 100%;
                         border-collapse: collapse;
@@ -36,31 +45,35 @@
                         border: 1px solid #ddd;
                     }
                     th, td {
-                        padding: 10px;
+                        padding: 8px;
                         text-align: left;
+                        font-size: 0.9em;
                     }
                     th {
                         background-color: #f4f4f4;
                         color: #333;
                     }
-                    td img {
-                        max-width: 150px;
-                        height: auto;
-                        display: block;
-                        margin: 0 auto;
-                    }
-                    a {
+                    td a {
                         color: #0073e6;
                         text-decoration: none;
                     }
-                    a:hover {
+                    td a:hover {
                         text-decoration: underline;
                     }
                 </style>
             </head>
             <body>
                 <div class="container">
-                    <h1><xsl:value-of select="view/trailers/title"/></h1>
+                    <div class="top-section">
+                        <h1><xsl:value-of select="view/trailers/title"/></h1>
+                        <p><strong>Author:</strong> <xsl:value-of select="view/trailers/author"/></p>
+                        <p><strong>Description:</strong> <xsl:value-of select="view/trailers/description"/></p>
+                        <p><strong>Language:</strong> <xsl:value-of select="view/trailers/language"/></p>
+                        <p><strong>Format:</strong> <xsl:value-of select="view/trailers/format"/></p>
+                        <p><strong>Category:</strong> <xsl:value-of select="view/trailers/category/@text"/></p>
+                        <img src="{view/trailers/image/@href}" alt="Trailer Image"/>
+                    </div>
+                    
                     <table>
                         <thead>
                             <tr>
@@ -69,7 +82,6 @@
                                 <th>Released</th>
                                 <th>Duration</th>
                                 <th>Video</th>
-                                <th>Image</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -80,7 +92,6 @@
                                     <td><xsl:value-of select="released"/></td>
                                     <td><xsl:value-of select="duration"/></td>
                                     <td><a href="{enclosure/@url}">Watch Trailer</a></td>
-                                    <td><img src="{view/trailers/image/@href}" alt="Trailer Image"/></td>
                                 </tr>
                             </xsl:for-each>
                         </tbody>
