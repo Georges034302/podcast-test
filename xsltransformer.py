@@ -40,12 +40,14 @@ def update_readme(readme_file, new_url):
     url_pattern = f"You can view the trailers [here]({new_url})."
 
     # Remove any existing URL entries and marker
-    content = re.sub(rf'{re.escape(marker)}\s*[\s\S]*?(?=\n\S|$)', '', content).strip()
+    content = re.sub(rf'{re.escape(marker)}\s*[\s\S]*?(?=\n\S|$)', '', content).rstrip()
 
-    # Append the new URL and marker, ensuring no extra blank lines
-    if content.endswith(marker):
-        content = re.sub(rf'{re.escape(marker)}\s*$', '', content)  # Remove trailing marker
-    content += f"\n{marker}\n{url_pattern}\n"
+    # Ensure there's exactly one blank line before the URL
+    if not content.endswith('\n\n'):
+        content += '\n\n'
+
+    # Append the new URL and marker
+    content += f"{marker}\n{url_pattern}\n"
 
     # Write the updated content back to README.md
     with open(readme_file, 'w') as f:
