@@ -17,6 +17,5 @@ The second part of this project is to use Docker (ubuntu) image to run commands 
 - [Hoyts Cinema](https://www.hoyts.com.au/)
 - [Reading Cinema](https://readingcinemas.com.au/movies/now-showing)
 --- 
-<br>
 [Latest Trailers URL]
 You can view the trailers [here](https://georges034302.github.io/trailer-viewer/trailers.html).
