@@ -19,4 +19,4 @@ The second part of this project is to use Docker (ubuntu) image to run commands 
 ---
 
 [Latest Trailers URL]
-You can view the trailers [here](https://georges034302.github.io/trailer-viewer/trailers.html).
+You can view the trailers [here](https://georges034302.github.io/trailer-viewer/trailer.html).

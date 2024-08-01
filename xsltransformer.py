@@ -20,7 +20,7 @@ html = transform(xml)
 
 # Convert the HTML to string and append the base URL to links
 html_str = ET.tostring(html, pretty_print=True, method='html').decode('utf-8')
-full_url = f"{base_url.rstrip('/')}/trailers.html"
+full_url = f"{base_url.rstrip('/')}/trailer.html"
 
 # Update the HTML content with the full URL
 html_str = html_str.replace('<a href="{view/trailers/link}">Visit Trailer Viewer</a>', f'<a href="{full_url}">Visit Trailer Viewer</a>')
